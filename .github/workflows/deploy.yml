@@ -1,13 +1,12 @@
-name: Linter
+name: Deploy
 
 on:
   push:
     branches:
       - main
-      - master
 
 jobs:
-  lint:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,5 +21,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run ESLint
-        run: npm run lint
+      - name: Build
+        run: npm run build
+
+      - name: Deploy
+        run: |
+          # Add your deployment script or commands here
