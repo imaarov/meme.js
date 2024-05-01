@@ -29,6 +29,7 @@
     "dotenv": "^16.4.5",
     "imgcat": "^2.3.0",
     "inquirer": "^9.2.20",
+    "lint": "^0.8.19",
     "sharp": "^0.33.3",
     "term-img": "^6.0.0",
     "terminal-image": "^2.0.0"
