@@ -1,0 +1,42 @@
+{
+  "name": "meme.js",
+  "version": "1.0.0",
+  "description": "make your terminal danker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imaarov/meme.js.git"
+  },
+  "keywords": [
+    "meme"
+  ],
+  "author": "imaarov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imaarov/meme.js/issues"
+  },
+  "homepage": "https://github.com/imaarov/meme.js#readme",
+  "dependencies": {
+    "@inquirer/checkbox": "^2.3.2",
+    "@inquirer/prompts": "^5.0.2",
+    "@inquirer/select": "^2.3.2",
+    "canvas": "^2.11.2",
+    "chalk": "^5.3.0",
+    "console-image": "^0.0.0",
+    "dotenv": "^16.4.5",
+    "imgcat": "^2.3.0",
+    "inquirer": "^9.2.20",
+    "sharp": "^0.33.3",
+    "term-img": "^6.0.0",
+    "terminal-image": "^2.0.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
