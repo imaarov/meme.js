@@ -36,6 +36,3 @@ const saveImage = async (url: string, fileName: string): Promise<void> => {
 
 export default saveImage;
 
-//saveImage(imageUrl, "me_irl0.jpg");
-
-

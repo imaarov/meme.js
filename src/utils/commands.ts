@@ -2,9 +2,6 @@ import { input, checkbox, Separator } from "@inquirer/prompts";
 const inputEntry = async (msg: string, validateHandler: (input: string) => boolean = () => true): Promise<string> =>
     await input({ message: msg, validate: validateHandler });
 
-// type ChoicesType = readonly (Separator | Choice<any>)[];
-
-// TODO: add the simple list selector input from cli
 type Choice<T> = {
     name: string;
     value: T;
