@@ -1,26 +1,51 @@
-name: Linter
+name: TypeScript Linter and Deploy
 
 on:
   push:
     branches:
       - main
-      - master
 
 jobs:
   lint:
+    name: Lint TypeScript
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+    - name: Checkout Repository
+      uses: actions/checkout@v2
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
 
-      - name: Install dependencies
-        run: npm install
+    - name: Install Dependencies
+      run: npm install
 
-      - name: Run ESLint
-        run: npm run lint
+    - name: Run Linter
+      run: npm run lint
+
+  deploy:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Build
+      run: npm run build
+
+    - name: Deploy
+      # Add your deployment steps here, such as deploying to a server or cloud provider
+      run: |
+        # Example deployment command:
+        # scp -r dist/* user@your-server:/path/to/destination
