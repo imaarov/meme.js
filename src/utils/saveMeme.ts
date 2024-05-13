@@ -2,7 +2,7 @@ import fs from "fs";
 import https from "https";
 import path from "path";
 
-const imageUrl: string = "https://i.redd.it/3h6oek9tkvwc1.png";
+//const imageUrl: string = "https://i.redd.it/3h6oek9tkvwc1.png";
 const basePath: string = "./saved-posts/";
 
 const saveImage = async (url: string, fileName: string): Promise<void> => {

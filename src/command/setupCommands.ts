@@ -4,7 +4,7 @@ const entryData: { name: string; age: string } = {
     name: "",
     age: ""
 };
-const preference: {} = {};
+
 
 async function setup(): Promise<void> {
     entryData.name = await commandCollection.input("enter your name:");
