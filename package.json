@@ -39,6 +39,7 @@
   "type": "module",
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
+    "eslint": "^9.2.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
