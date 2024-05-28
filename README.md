@@ -38,6 +38,11 @@
 - meme filtering options
 - Custom meme subscriptions (getting personalized meme)
 - Support for multiple meme sources (more that reddit like 9gag or discord servers)
+
+## Credits
+
+- **imaarov**: [imaarov](https://github.com/imaarov)
+
 ### License
 
 See the [LICENSE](#) file for licensing information, and our [FAQ](#) for any questions you may have on that topic.
