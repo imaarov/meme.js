@@ -41,7 +41,7 @@
 
 ## Credits
 
-- **imaarov**: [imaarov](https://github.com/imaarov)
+- **iman atarof**: [imaarov](https://github.com/imaarov)
 
 ### License
 
