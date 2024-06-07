@@ -22,15 +22,15 @@
    ```
 2. Install dependencies:
    ```bash
-   npm i
+   yarn install
    ```
 3. Compile the project:
     ```bash
-   tsc --project . 
+    yarn build
    ```
 4. Or use the ready js compiled files:
     ```bash
-   node dist/index.js 
+    yarn start
    ```
 
 ### TODO
