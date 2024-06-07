@@ -39,11 +39,14 @@
 - Custom meme subscriptions (getting personalized meme)
 - Support for multiple meme sources (more that reddit like 9gag or discord servers)
 
-## Credits
-
-- **iman atarof**: [imaarov](https://github.com/imaarov)
 
 ### License
 
 See the [LICENSE](#) file for licensing information, and our [FAQ](#) for any questions you may have on that topic.
 
+
+### Contributors
+
+Thank you to all the wonderful people who have contributed to this project!
+
+<a href="https://github.com/imaarov/meme.js/graphs/contributors"> <img src="https://contrib.rocks/image?repo=imaarov/meme.js" /> </a>
