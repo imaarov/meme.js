@@ -20,6 +20,7 @@
 - Stay updated with the latest and greatest memes without ever leaving your coding environment. <img src="img/nyan-cat.png" alt="Icon" width="50" />
 
 ## Usage
+0. Important note: **you should use kitty terminal**
 1. Clone the repository:
    ```bash
    git clone https://github.com/imaarov/meme.js.git
