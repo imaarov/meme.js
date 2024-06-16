@@ -1,12 +1,17 @@
-import terminalImage from "terminal-image";
-import chalk from "chalk";
+import { spawn } from 'child_process';
+import * as path from 'path';
 
-async function displayImage(path: string, imageTitle: string, imageWidth: number = 50): Promise<void> {
-    const asciiImage: string = await terminalImage.file(path, { width: `${imageWidth}%` });
-    console.log(asciiImage);
-    console.log(chalk.bgCyan(imageTitle));
+async function displayImage(imagePath: string, imageTitle: string, imageWidth: number = 50): Promise<void> {
+    console.log(`Displaying image: ${imageTitle}`);
+    const fullPath = path.resolve(imagePath);
+    const child = spawn('kitty', ['+kitten', 'icat', fullPath], { stdio: 'inherit' });
+
+    child.on('close', (code: number) => {
+        if (code !== 0) {
+            console.log(`Child process exited with code ${code}`);
+        }
+    });
 }
 
 export default displayImage;
-
 
