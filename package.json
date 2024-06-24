@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/imaarov/meme.js#readme",
   "dependencies": {
-    "@inquirer/checkbox": "^2.3.4",
-    "@inquirer/prompts": "^5.0.4",
-    "@inquirer/select": "^2.3.2",
+    "@inquirer/checkbox": "^2.3.6",
+    "@inquirer/prompts": "^5.0.6",
+    "@inquirer/select": "^2.3.6",
     "canvas": "^2.11.2",
     "chalk": "^5.3.0",
     "console-image": "^0.0.0",
