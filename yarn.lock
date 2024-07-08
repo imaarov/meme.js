@@ -281,6 +281,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@inquirer/checkbox@npm:^2.3.10":
+  version: 2.3.10
+  resolution: "@inquirer/checkbox@npm:2.3.10"
+  dependencies:
+    "@inquirer/core": "npm:^9.0.2"
+    "@inquirer/figures": "npm:^1.0.3"
+    "@inquirer/type": "npm:^1.4.0"
+    ansi-escapes: "npm:^4.3.2"
+    yoctocolors-cjs: "npm:^2.1.2"
+  checksum: 10c0/fa6a8b7291d8303cb3c0dcab2a4111f4408fdab5761ccb07c329360adef9e7d5ae0c7820656ed6eb42f994299dc3a491a385bec39cb8c73c2044c8536a6b88dc
+  languageName: node
+  linkType: hard
+
 "@inquirer/checkbox@npm:^2.3.5":
   version: 2.3.5
   resolution: "@inquirer/checkbox@npm:2.3.5"
@@ -291,19 +304,6 @@ __metadata:
     ansi-escapes: "npm:^4.3.2"
     chalk: "npm:^4.1.2"
   checksum: 10c0/42a1c3ca00f06d167297914bcefdbb74b3a9675c4cc65ae539c100dca3094364ed23810938f542060489b4aa031bccf91ef3beeee2594a2d72edb78fd6ac2f2a
-  languageName: node
-  linkType: hard
-
-"@inquirer/checkbox@npm:^2.3.8":
-  version: 2.3.8
-  resolution: "@inquirer/checkbox@npm:2.3.8"
-  dependencies:
-    "@inquirer/core": "npm:^9.0.0"
-    "@inquirer/figures": "npm:^1.0.3"
-    "@inquirer/type": "npm:^1.4.0"
-    ansi-escapes: "npm:^4.3.2"
-    yoctocolors-cjs: "npm:^2.1.1"
-  checksum: 10c0/02162ccf6773833c3677b7f1a6b9e608d4b55151bc3c2e3f1b4a373d6f1aaf67507688642812e068b0f7984a559b0d74b0a6f61cd62b3154a607a9ba0d88ca96
   languageName: node
   linkType: hard
 
@@ -338,9 +338,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@inquirer/core@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "@inquirer/core@npm:9.0.0"
+"@inquirer/core@npm:^9.0.2":
+  version: 9.0.2
+  resolution: "@inquirer/core@npm:9.0.2"
   dependencies:
     "@inquirer/figures": "npm:^1.0.3"
     "@inquirer/type": "npm:^1.4.0"
@@ -354,8 +354,8 @@ __metadata:
     signal-exit: "npm:^4.1.0"
     strip-ansi: "npm:^6.0.1"
     wrap-ansi: "npm:^6.2.0"
-    yoctocolors-cjs: "npm:^2.1.1"
-  checksum: 10c0/c29f4ccb49ce5d7059c9c6285ccb7f0d726ea3366d0259670e65852831426ed10ebc13f0d312a12d34d1b570db1ffc4e9c00b9ee5a699834df2fa32fd2c82822
+    yoctocolors-cjs: "npm:^2.1.2"
+  checksum: 10c0/2ec629b2e2d4503059981bb54ee555e1e80100e2ec0fed0aec5ce4f8bae6d124bb241a7fbf0fb8141cabbefcfbd7ddaec4702e581feb99d29e10d4017394aae1
   languageName: node
   linkType: hard
 
@@ -436,6 +436,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@inquirer/select@npm:^2.3.10":
+  version: 2.3.10
+  resolution: "@inquirer/select@npm:2.3.10"
+  dependencies:
+    "@inquirer/core": "npm:^9.0.2"
+    "@inquirer/figures": "npm:^1.0.3"
+    "@inquirer/type": "npm:^1.4.0"
+    ansi-escapes: "npm:^4.3.2"
+    yoctocolors-cjs: "npm:^2.1.2"
+  checksum: 10c0/273595645433d130226734439bc021bb1d31023997478747435152da68e511a1ff752a7eb084ade67e706a1780da4dffa4623e95abef4a0b0881570d6556f727
+  languageName: node
+  linkType: hard
+
 "@inquirer/select@npm:^2.3.5":
   version: 2.3.5
   resolution: "@inquirer/select@npm:2.3.5"
@@ -446,19 +459,6 @@ __metadata:
     ansi-escapes: "npm:^4.3.2"
     chalk: "npm:^4.1.2"
   checksum: 10c0/87ed16ff2ec4811ce26c03c4dc2a12a032c266809bfdddfb6ece0c4ebcda52120d0eabe5d43f18963cae540d515bff8401ae3d141fda4f170e1e472595424c39
-  languageName: node
-  linkType: hard
-
-"@inquirer/select@npm:^2.3.8":
-  version: 2.3.8
-  resolution: "@inquirer/select@npm:2.3.8"
-  dependencies:
-    "@inquirer/core": "npm:^9.0.0"
-    "@inquirer/figures": "npm:^1.0.3"
-    "@inquirer/type": "npm:^1.4.0"
-    ansi-escapes: "npm:^4.3.2"
-    yoctocolors-cjs: "npm:^2.1.1"
-  checksum: 10c0/14a418c2cab3d35fe83bc94ff04d10be76abc2e2fa6e343fabc20c763f7a48a03010553e39ef2185586f874b437bbfd50cea40ff46225c5e75448b14e4de1e1e
   languageName: node
   linkType: hard
 
@@ -4011,9 +4011,9 @@ __metadata:
   resolution: "meme.js@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.6.0"
-    "@inquirer/checkbox": "npm:^2.3.4"
+    "@inquirer/checkbox": "npm:^2.3.10"
     "@inquirer/prompts": "npm:^5.0.4"
-    "@inquirer/select": "npm:^2.3.8"
+    "@inquirer/select": "npm:^2.3.10"
     "@types/inquirer": "npm:^9.0.7"
     "@types/node": "npm:^20.14.9"
     canvas: "npm:^2.11.2"
@@ -4021,7 +4021,7 @@ __metadata:
     console-image: "npm:^0.0.0"
     dotenv: "npm:^16.4.5"
     eslint: "npm:9.6.0"
-    globals: "npm:^15.4.0"
+    globals: "npm:^15.6.0"
     imgcat: "npm:^2.3.0"
     inquirer: "npm:^9.2.22"
     lint: "npm:^0.8.19"
@@ -6175,9 +6175,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yoctocolors-cjs@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "yoctocolors-cjs@npm:2.1.1"
-  checksum: 10c0/e7e32c3d0a41e72251e274b34ebf9c371d26be1d351b41ba8feb407ce61e607e5178d1eaefeff7b5f1346a94a4ff4081cf276f2fd8388b432b7798d18800dd7f
+"yoctocolors-cjs@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "yoctocolors-cjs@npm:2.1.2"
+  checksum: 10c0/a0e36eb88fea2c7981eab22d1ba45e15d8d268626e6c4143305e2c1628fa17ebfaa40cd306161a8ce04c0a60ee0262058eab12567493d5eb1409780853454c6f
   languageName: node
   linkType: hard
