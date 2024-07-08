@@ -30,7 +30,7 @@
     "chalk": "^5.3.0",
     "console-image": "^0.0.0",
     "dotenv": "^16.4.5",
-    "globals": "^15.6.0",
+    "globals": "^15.8.0",
     "imgcat": "^2.3.0",
     "inquirer": "^9.2.22",
     "lint": "^0.8.19",
