@@ -42,11 +42,11 @@
   "devDependencies": {
     "@eslint/js": "^9.6.0",
     "@types/inquirer": "^9.0.7",
-    "@types/node": "^20.14.9",
+    "@types/node": "^20.14.10",
     "eslint": "9.6.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3",
-    "typescript-eslint": "^7.15.0"
+    "typescript-eslint": "^7.16.0"
   },
   "packageManager": "yarn@4.2.2"
 }
