@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/imaarov/meme.js#readme",
   "dependencies": {
-    "@inquirer/checkbox": "^2.3.8",
+    "@inquirer/checkbox": "^2.4.7",
     "@inquirer/prompts": "^5.0.4",
     "@inquirer/select": "^2.3.8",
     "canvas": "^2.11.2",
